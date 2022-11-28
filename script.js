@@ -1,6 +1,9 @@
 const meta = document.querySelector('meta[name="color-scheme"]');
 let colorScheme = 'light';
 meta.content = colorScheme
+console.log(window)
+console.log(window.frameElement)
+console.log(window.frames[0])
 if (!window.frameElement) {  
     window.setInterval(() => {    
         colorScheme = colorScheme === 'light' ? 'dark' : 'light';
