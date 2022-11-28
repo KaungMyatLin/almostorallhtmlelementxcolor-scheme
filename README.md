@@ -1,4 +1,5 @@
-copied from dev tool source: https://color-scheme-demo.glitch.me
+copied from dev tool source: https://color-scheme-demo.glitch.me.
+good article: https://web.dev/color-scheme/.
 
 body>div>
 
